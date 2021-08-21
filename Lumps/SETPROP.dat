@@ -1,0 +1,18 @@
+////////////////////////////////
+//  Heretic Global Properties //
+////////////////////////////////
+
+GameInfo
+{
+	AdvisoryTime = 0
+	DrawReadThis = True //Redundant, but some may like the nostalgia?
+}
+
+GameDefaults
+{
+	NoFallingDamage
+	NormalInfighting
+	SmoothLighting
+	NoCrouch
+	NoJump
+}

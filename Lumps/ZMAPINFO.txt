@@ -1,0 +1,623 @@
+//////////////////////////
+//   Heretic ZMapINFO   //
+//////////////////////////
+include "SetProp"
+
+
+
+//========================
+// First Episode ( E1Mx )
+//========================
+
+Map E1M1 LookUp "HHUSTR_E1M1"
+{
+	LevelNum = 1
+	Sky1 = "SKY1", 0
+	Music = "MUS_E1M1"
+	Next = "E1M2"
+	SecretNext = "E1M9"
+	EnterPic = "$in_htc1"
+	ExitPic = "$in_htc1"
+	Cluster = 1
+	ResetHealth
+	ResetInventory
+}
+
+Map E1M2 LookUp "HHUSTR_E1M2"
+{
+	LevelNum = 2
+	Sky1 = "SKY1", 0
+	Music = "MUS_E1M2"
+	Next = "E1M3"
+	SecretNext = "E1M9"
+	EnterPic = "$in_htc1"
+	ExitPic = "$in_htc1"
+	Cluster = 1
+}
+
+Map E1M3 LookUp "HHUSTR_E1M3"
+{
+	LevelNum = 3
+	Sky1 = "SKY1", 0
+	Music = "MUS_E1M3"
+	Next = "E1M4"
+	SecretNext = "E1M9"
+	EnterPic = "$in_htc1"
+	ExitPic = "$in_htc1"
+	Cluster = 1
+}
+
+Map E1M4  LookUp "HHUSTR_E1M4"
+{
+	LevelNum = 4
+	Sky1 = "Sky1", 0
+	Music = "MUS_E1M4"
+	Next = "E1M5"
+	SecretNext = "E1M9"
+	EnterPic = "$in_htc1"
+	ExitPic = "$in_htc1"
+	Cluster = 1
+}
+
+Map E1M5 LookUp "HHUSTR_E1M5"
+{
+	LevelNum = 5
+	Sky1 = "Sky1", 0
+	Music = "MUS_E1M5"
+	Next = "E1M6"
+	SecretNext = "E1M9"
+	EnterPic = "$in_htc1"
+	ExitPic = "$in_htc1"
+	Cluster = 1
+}
+
+Map E1M6 LookUp "HHUSTR_E1M6"
+{
+	LevelNum = 6
+	Sky1 = "SKY1", 0
+	Music = "MUS_E1M6"
+	Next = "E1M7"
+	SecretNext = "E1M9"
+	EnterPic = "$in_htc1"
+	ExitPic = "$in_htc1"
+	Cluster = 1
+}
+
+Map E1M7 LookUp "HHUSTR_E1M7"
+{
+	LevelNum = 7
+	Sky1 = "SKY1", 0
+	Music = "MUS_E1M7"
+	Next = "E1M8"
+	SecretNext = "E1M9"
+	EnterPic = "$in_htc1"
+	ExitPic = "$in_htc1"
+	Cluster = 1
+}
+
+Map E1M8 LookUp "HHUSTR_E1M8"
+{
+	LevelNum = 8
+	Sky1 = "SKY1", 0
+	Music = "MUS_E1M8"
+	Next = "E2M1"
+	SecretNext = "E1M9"
+	EnterPic = "$in_htc1"
+	ExitPic = "$in_htc2"
+	Cluster = 1
+	IronlichSpecial
+	SpecialAction_LowerFloorToHighest
+}
+
+Map E1M9 LookUp "HHUSTR_E1M9"
+{
+	LevelNum = 9
+	Sky1 = "SKY1", 0
+	Music = "MUS_E1M9"
+	Next = "E1M7"
+	SecretNext = "E1M7"
+	EnterPic = "$in_htc1"
+	ExitPic = "$in_htc1"
+	Cluster = 1
+}
+
+//========================
+// Second Episode ( E2Mx )
+//========================
+
+Map E2M1 LookUp "HHUSTR_E2M1"
+{
+	LevelNum = 11
+	Sky1 = "SKY2", 0
+	Music = "MUS_E2M1"
+	Next = "E2M2"
+	SecretNext = "E2M9"
+	EnterPic = "$in_htc2"
+	ExitPic = "$in_htc2"
+	Cluster = 2
+	ResetHealth
+	ResetInventory
+}
+
+Map E2M2 LookUp "HHUSTR_E2M2"
+{
+	LevelNum = 12
+	Sky1 = "SKY2", 0
+	Music = "MUS_E2M2"
+	Next = "E2M3"
+	SecretNext = "E2M9"
+	EnterPic = "$in_htc2"
+	ExitPic = "$in_htc2"
+	Cluster = 2
+}
+
+Map E2M3 LookUp "HHUSTR_E2M3"
+{
+	LevelNum = 13
+	Sky1 = "SKY2", 0
+	Music = "MUS_E2M3"
+	Next = "E2M4"
+	SecretNext = "E2M9"
+	EnterPic = "$in_htc2"
+	ExitPic = "$in_htc2"
+	Cluster = 2
+}
+
+Map E2M4 LookUp "HHUSTR_E2M4"
+{
+	LevelNum = 14
+	Sky1 = "SKY2", 0
+	Music = "MUS_E2M4"
+	Next = "E2M5"
+	SecretNext = "E2M9"
+	EnterPic = "$in_htc2"
+	ExitPic = "$in_htc2"
+	Cluster = 2
+}
+
+Map E2M5 LookUp "HHUSTR_E2M5"
+{
+	LevelNum = 15
+	Sky1 = "SKY2", 0
+	Music = "MUS_E1M4"
+	Next = "E2M6"
+	SecretNext = "E2M9"
+	EnterPic = "$in_htc2"
+	ExitPic = "$in_htc2"
+	Cluster = 2
+}
+
+Map E2M6 LookUp "HHUSTR_E2M6"
+{
+	LevelNum = 16
+	Sky1 = "SKY2", 0
+	Music = "MUS_E2M6"
+	Next = "E2M7"
+	SecretNext = "E2M9"
+	EnterPic = "$in_htc2"
+	ExitPic = "$in_htc2"
+	Cluster = 2
+}
+
+Map E2M7 LookUp "HHUSTR_E2M7"
+{
+	LevelNum = 17
+	Sky1 = "SKY2", 0
+	Music = "MUS_E2M7"
+	Next = "E2M8"
+	SecretNext = "E2M9"
+	EnterPic = "$in_htc2"
+	ExitPic = "$in_htc2"
+	Cluster = 2
+}
+
+Map E2M8 LookUp "HHUSTR_E2M8"
+{
+	LevelNum = 18
+	Sky1 = "SKY2", 0
+	Music = "MUS_E2M8"
+	Next = "E3M1"
+	SecretNext = "E2M9"
+	EnterPic = "$in_htc2"
+	ExitPic = "$in_htc3"
+	Cluster = 2
+	MinotaurSpecial
+	SpecialAction_LowerFloorToHighest
+	SpecialAction_KillMonsters
+}
+
+Map E2M9 LookUp "HHUSTR_E2M9"
+{
+	LevelNum = 19
+	Sky1 = "SKY2", 0
+	Music = "MUS_E2M9"
+	Next = "E2M5"
+	SecretNext = "E2M5"
+	EnterPic = "$in_htc2"
+	ExitPic = "$in_htc2"
+	Cluster = 2
+}
+
+//========================
+// Third Episode ( E3Mx )
+//========================
+
+Map E3M1 LookUp "HHUSTR_E3M1"
+{
+	LevelNum = 21
+	Sky1 = "SKY3", 0
+	Music = "MUS_E1M1"
+	Next = "E3M2"
+	SecretNext = "E3M9"
+	EnterPic = "$in_htc3"
+	ExitPic = "$in_htc3"
+	Cluster = 3
+	ResetHealth
+	ResetInventory
+}
+
+Map E3M2 LookUp "HHUSTR_E3M2"
+{
+	LevelNum = 22
+	Sky1 = "SKY3", 0
+	Music = "MUS_E3M2"
+	Next = "E3M3"
+	SecretNext = "E3M9"
+	EnterPic = "$in_htc3"
+	ExitPic = "$in_htc3"
+	Cluster = 3
+}
+
+Map E3M3 LookUp "HHUSTR_E3M3"
+{
+	LevelNum = 23
+	Sky1 = "SKY3", 0
+	Music = "MUS_E3M3"
+	Next = "E3M4"
+	SecretNext = "E3M9"
+	EnterPic = "$in_htc3"
+	ExitPic = "$in_htc3"
+	Cluster = 3
+}
+
+Map E3M4 LookUp "HHUSTR_E3M4"
+{
+	LevelNum = 24
+	Sky1 = "SKY3", 0
+	Music = "MUS_E1M6"
+	Next = "E3M5"
+	SecretNext = "E3M9"
+	EnterPic = "$in_htc3"
+	ExitPic = "$in_htc3"
+	Cluster = 3
+}
+
+Map E3M5 LookUp "HHUSTR_E3M5"
+{
+	LevelNum = 25
+	Sky1 = "SKY3", 0
+	Music = "MUS_E1M3"
+	Next = "E3M6"
+	SecretNext = "E3M9"
+	EnterPic = "$in_htc3"
+	ExitPic = "$in_htc3"
+	Cluster = 3
+}
+
+Map E3M6 LookUp "HHUSTR_E3M6"
+{
+	LevelNum = 26
+	Sky1 = "SKY3", 0
+	Music = "MUS_E1M2"
+	Next = "E3M7"
+	SecretNext = "E3M9"
+	EnterPic = "$in_htc3"
+	ExitPic = "$in_htc3"
+	Cluster = 3
+}
+
+Map E3M7 LookUp "HHUSTR_E3M7"
+{
+	LevelNum = 27
+	Sky1 = "SKY3", 0
+	Music = "MUS_E1M5"
+	Next = "E3M8"
+	SecretNext = "E3M9"
+	EnterPic = "$in_htc3"
+	ExitPic = "$in_htc3"
+	Cluster = 3
+}
+
+Map E3M8 LookUp "HHUSTR_E3M8"
+{
+	LevelNum = 28
+	Sky1 = "SKY3", 0
+	Music = "MUS_E1M9"
+	Next = "E4M1"
+	SecretNext = "E3M9"
+	EnterPic = "$in_htc3"
+	ExitPic = "FINAL1"
+	Cluster = 3
+	DSparilSpecial
+	SpecialAction_LowerFloorToHighest
+	SpecialAction_KillMonsters
+}
+
+Map E3M9 LookUp "HHUSTR_E3M9"
+{
+	LevelNum = 29
+	Sky1 = "SKY3", 0
+	Music = "MUS_E2M6"
+	Next = "E3M5"
+	SecretNext = "E3M5"
+	EnterPic = "$in_htc3"
+	ExitPic = "$in_htc3"
+	Cluster = 3
+}
+
+//========================
+// Fourth Episode ( E4Mx )
+//========================
+
+Map E4M1 LookUp "HHUSTR_E4M1"
+{
+	LevelNum = 31
+	Sky1 = "SKY1", 0
+	Music = "MUS_E1M6"
+	Next = "E4M2"
+	SecretNext = "E4M9"
+	EnterPic = "FINAL1"
+	ExitPic = "FINAL1"
+	Cluster = 4
+	ResetHealth
+	ResetInventory
+}
+
+Map E4M2 LookUp "HHUSTR_E4M2"
+{
+	LevelNum = 32
+	Sky1 = "SKY1", 0
+	Music = "MUS_E1M2"
+	Next = "E4M3"
+	SecretNext = "E4M9"
+	EnterPic = "FINAL1"
+	ExitPic = "FINAL1"
+	Cluster = 4
+}
+
+Map E4M3 LookUp "HHUSTR_E4M3"
+{
+	LevelNum = 33
+	Sky1 = "SKY1", 0
+	Music = "MUS_E1M3"
+	Next = "E4M4"
+	SecretNext = "E4M9"
+	EnterPic = "FINAL1"
+	ExitPic = "FINAL1"
+	Cluster = 4
+}
+
+Map E4M4 LookUp "HHUSTR_E4M4"
+{
+	LevelNum = 34
+	Sky1 = "SKY1", 0
+	Music = "MUS_E1M4"
+	Next = "E4M5"
+	SecretNext = "E4M9"
+	EnterPic = "FINAL1"
+	ExitPic = "FINAL1"
+	Cluster = 4
+}
+
+Map E4M5 LookUp "HHUSTR_E4M5"
+{
+	LevelNum = 35
+	Sky1 = "SKY1", 0
+	Music = "MUS_E1M5"
+	Next = "E4M6"
+	SecretNext = "E4M9"
+	EnterPic = "FINAL1"
+	ExitPic = "FINAL1"
+	Cluster = 4
+}
+
+Map E4M6 LookUp "HHUSTR_E4M6"
+{
+	LevelNum = 36
+	Sky1 = "SKY1", 0
+	Music = "MUS_E1M1"
+	Next = "E4M7"
+	SecretNext = "E4M9"
+	EnterPic = "FINAL1"
+	ExitPic = "FINAL1"
+	Cluster = 4
+}
+
+Map E4M7 LookUp "HHUSTR_E4M7"
+{
+	LevelNum = 37
+	Sky1 = "SKY1", 0
+	Music = "MUS_E1M7"
+	Next = "E4M8"
+	SecretNext = "E4M9"
+	EnterPic = "FINAL1"
+	ExitPic = "FINAL1"
+	Cluster = 4
+}
+
+Map E4M8 LookUp "HHUSTR_E4M8"
+{
+	LevelNum = 38
+	Sky1 = "SKY1", 0
+	Music = "MUS_E1M8"
+	Next = "E5M1"
+	SecretNext = "E4M9"
+	EnterPic = "FINAL1"
+	ExitPic = "FINAL2"
+	Cluster = 4
+	IronlichSpecial
+	SpecialAction_LowerFloorToHighest
+	SpecialAction_KillMonsters
+}
+
+Map E4M9 LookUp "HHUSTR_E4M9"
+{
+	LevelNum = 39
+	Sky1 = "SKY1", 0
+	Music = "MUS_E1M9"
+	Next = "E4M5"
+	SecretNext = "E4M5"
+	EnterPic = "FINAL1"
+	ExitPic = "FINAL1"
+	Cluster = 4
+}
+
+//========================
+// Fifth Episode ( E5Mx )
+//========================
+
+Map E5M1 LookUp "HHUSTR_E5M1"
+{
+	LevelNum = 41
+	Sky1 = "SKY3", 0
+	Music = "MUS_E2M1"
+	Next = "E5M2"
+	SecretNext = "E5M9"
+	EnterPic = "FINAL2"
+	ExitPic = "FINAL2"
+	Cluster = 5
+	ResetHealth
+	ResetInventory
+}
+
+Map E5M2 LookUp "HHUSTR_E5M2"
+{
+	LevelNum = 42
+	Sky1 = "SKY3", 0
+	Music = "MUS_E2M2"
+	Next = "E5M3"
+	SecretNext = "E5M9"
+	EnterPic = "FINAL2"
+	ExitPic = "FINAL2"
+	Cluster = 5
+}
+
+Map E5M3 LookUp "HHUSTR_E5M3"
+{
+	LevelNum = 43
+	Sky1 = "SKY3", 0
+	Music = "MUS_E2M3"
+	Next = "E5M4"
+	SecretNext = "E5M9"
+	EnterPic = "FINAL2"
+	ExitPic = "FINAL2"
+	Cluster = 5
+}
+
+Map E5M4 LookUp "HHUSTR_E5M4"
+{
+	LevelNum = 44
+	Sky1 = "SKY3", 0
+	Music = "MUS_E2M4"
+	Next = "E5M5"
+	SecretNext = "E5M9"
+	EnterPic = "FINAL2"
+	ExitPic = "FINAL2"
+	Cluster = 5
+}
+
+Map E5M5 LookUp "HHUSTR_E5M5"
+{
+	LevelNum = 45
+	Sky1 = "SKY3", 0
+	Music = "MUS_E1M4"
+	Next = "E5M6"
+	SecretNext = "E5M9"
+	EnterPic = "FINAL2"
+	ExitPic = "FINAL2"
+	Cluster = 5
+}
+
+Map E5M6 LookUp "HHUSTR_E5M6"
+{
+	LevelNum = 46
+	Sky1 = "SKY3", 0
+	Music = "MUS_E2M6"
+	Next = "E5M7"
+	SecretNext = "E5M9"
+	EnterPic = "FINAL2"
+	ExitPic = "FINAL2"
+	Cluster = 5
+}
+
+Map E5M7 LookUp "HHUSTR_E5M7"
+{
+	LevelNum = 47
+	Sky1 = "SKY3", 0
+	Music = "MUS_E2M7"
+	Next = "E5M8"
+	SecretNext = "E5M9"
+	EnterPic = "FINAL2"
+	ExitPic = "FINAL2"
+	Cluster = 5
+}
+
+Map E5M8 LookUp "HHUSTR_E5M8"
+{
+	LevelNum = 48
+	Sky1 = "SKY3", 0
+	Music = "MUS_E2M8"
+	Next = "E1M1"
+	SecretNext = "E5M9"
+	EnterPic = "FINAL2"
+	ExitPic = "$in_htc1"
+	Cluster = 5
+	MinotaurSpecial
+	SpecialAction_KillMonsters
+	SpecialAction_LowerFloorToHighest
+}
+
+Map E5M9 LookUp "HHUSTR_E5M9"
+{
+	LevelNum = 49
+	Sky1 = "SKY3", 0
+	Music = "MUS_E2M9"
+	Next = "E5M4"
+	SecretNext = "E5M4"
+	EnterPic = "FINAL2"
+	ExitPic = "FINAL2"
+	Cluster = 5
+}
+
+//========================
+// Sixth Episode ( E6Mx )
+// NOTE: Incomplete Episode and maps may not be finished!
+// Could be useful for under a linear Deathmatch
+//========================
+
+Map E6M1 "Raven's Lair"
+{
+	LevelNum = 51
+	Sky1 = "SKY1", 0
+	Music = "MUS_E3M2"
+	Next = "E6M2"
+	Cluster = 6
+}
+
+Map E6M2 "Water Shrine"
+{
+	LevelNum = 52
+	Sky1 = "SKY1", 0
+	Music = "MUS_E3M3"
+	Next = "E6M3"
+	Cluster = 6
+}
+
+Map E6M3 "American's Legacy"
+{
+	LevelNum = 53
+	Sky1 = "SKY1", 0
+	Music = "MUS_E1M6"
+	Next = "E1M1"
+	Cluster = 6
+}
